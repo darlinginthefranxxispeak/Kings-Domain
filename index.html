@@ -3,58 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kingsss Domain | Hub</title>
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>King's Domain | Unblocked Games</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1 class="logo">KINGSSS <span class="gold">DOMAIN</span></h1>
-            <p>Select a destination to enter the kingdom.</p>
-        </header>
-
-        <!-- ICON BUTTON GRID -->
-        <div class="icon-grid">
-            
-            <a href="about.html" class="icon-card">
-                <div class="icon-box"><i class="fa-solid fa-crown"></i></div>
-                <span>About Us</span>
-            </a>
-
-            <a href="rules.html" class="icon-card">
-                <div class="icon-box"><i class="fa-solid fa-scroll"></i></div>
-                <span>Rules</span>
-            </a>
-
-            <a href="games.html" class="icon-card">
-                <div class="icon-box"><i class="fa-solid fa-gamepad"></i></div>
-                <span>Games</span>
-            </a>
-
-            <a href="socials.html" class="icon-card">
-                <div class="icon-box"><i class="fa-solid fa-share-nodes"></i></div>
-                <span>Socials</span>
-            </a>
-
-            <a href="members.html" class="icon-card">
-                <div class="icon-box"><i class="fa-solid fa-users"></i></div>
-                <span>Members</span>
-            </a>
-
-            <a href="https://discord.com" target="_blank" class="icon-card">
-                <div class="icon-box"><i class="fa-brands fa-discord"></i></div>
-                <span>Discord</span>
-            </a>
-
+    <nav class="navbar">
+        <div class="logo">KING'S <span>DOMAIN</span></div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search games..." onkeyup="searchGames()">
+            <i class="fas fa-search"></i>
         </div>
+    </nav>
 
-        <footer>
-            <p>&copy; 2024 Kingsss Domain. All rights reserved.</p>
-        </footer>
-    </div>
+    <main class="container">
+        <section class="game-grid" id="gameGrid">
+            <!-- Games will be injected here by JavaScript -->
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2026 King's Domain - Play Anywhere</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
